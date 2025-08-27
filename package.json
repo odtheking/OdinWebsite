@@ -1,0 +1,27 @@
+{
+  "name": "odinwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/odtheking/OdinWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odtheking/OdinWebsite/issues"
+  },
+  "homepage": "https://github.com/odtheking/OdinWebsite#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.876.0",
+    "@aws-sdk/lib-dynamodb": "^3.876.0",
+    "atob": "^2.1.2",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
